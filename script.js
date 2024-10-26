@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyCNLVZKTIPdt3_9-TLQ76952RzGFeeX_n8';
+const API_KEY = 'https://www.googleapis.com/youtube/v3/videos?part=snippet&id=VIDEO_ID&key=AIzaSyCNLVZKTIPdt3_9-TLQ76952RzGFeeX_n8';
 
 function searchSong() {
   const query = document.getElementById("searchQuery").value;
