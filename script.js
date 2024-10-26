@@ -1,4 +1,4 @@
-const API_KEY = 'YOUR_YOUTUBE_API_KEY';
+const API_KEY = 'AIzaSyCNLVZKTIPdt3_9-TLQ76952RzGFeeX_n8';
 
 function searchSong() {
   const query = document.getElementById("searchQuery").value;
