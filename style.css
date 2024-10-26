@@ -1,32 +1,37 @@
-/* public/style.css */
 body {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 100vh;
   margin: 0;
-  background: url('https://i.ibb.co/KFfFjsb/image.jpg') no-repeat center center;
-  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
 }
 
-.music-player {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 20px;
-  border-radius: 8px;
+.player {
   text-align: center;
-  color: white;
+  width: 100%;
+  max-width: 500px;
 }
 
-.controls button {
-  margin: 10px;
+#searchQuery {
+  width: 80%;
   padding: 10px;
+  margin-bottom: 10px;
   border: none;
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.controls button:hover {
-  background-color: #45a049;
+#videoPlayer {
+  margin-top: 20px;
 }
